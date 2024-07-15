@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Proyecto Integrador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/reset.css" />
+</head>
+
+<body>
+
+    <main class="page">
+        
+        <section class="presentation">
+            <article class="presentation-container">
+                <img src="/assets/img/00.jpg" alt="Eduardo">
+                <div class="profile-container">
+                    <h1 class="title">Proyecto M1</h1>
+                    <h2 class="sub_title">Sobre Mi.</h2>
+                    <p>Saludos. Mi nombre es Eduardo Alejandro Cabrejas. Tengo 25 años. Vivo en Los Pinos, Buenos Aires,
+                        Argentina.
+                        Soy estudiante de Desarrollador Full-stack y les presento
+                        mi primer proyecto. Un gusto.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="technologies">
+            <h2 class="sub_title">Mis Tecnologías Favoritas</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/img/HTML.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/CSS.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/JS.png" alt="Java Script">
+                    <p>Java Script</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/Filmora.png" alt="Filmora">
+                    <p>Filmora</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/Reaper.png" alt="Reaper">
+                    <p>Reaper</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/react.png" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/next.png" alt="Next.JS">
+                    <p>Next.JS</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/postgre.png" alt="PostgreSQL">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/node.png" alt="Node.JS">
+                    <p>Node.JS</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/gitBash.png" alt="Node.JS">
+                    <p>Git Bash</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="actividades">
+            <h2 class="sub_title">Mis Actividades Favoritas</h2>
+            <h3 class="form_title">Crea Tu Nueva Actividad</h3>
+            <form id="form">
+                <input type="text" id="title-input" placeholder="Título">
+
+                <input type="text" id="description-input" placeholder="Descripción">
+
+                <input type="url" id="imgUrl-input" placeholder="URL de Imagen">
+
+                <button type="button" id="actBtn" class="createButton">Crear Actividad</button>
+            </form>
+            <div id="activities">
+                <button class="deleteButton">Eliminar</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="list">
+                <a href="https://www.facebook.com/educabre19/" target="_blank">
+                    <img class="img-foot" src="./assets/img/face.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/educabre19/" target="_blank">
+                    <img class="img-foot" src="./assets/img/insta.png" alt="Instagram">
+                </a>
+                <a href="https://x.com/Edu_Cabrejas" target="_blank">
+                    <img class="img-foot" src="./assets/img/twitt.png" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/eduardo-cabrejas/" target="_blank">
+                    <img class="img-foot" src="./assets/img/link.png" alt="Linkedin">
+                </a>
+            </div>
+            <p>&copy; 2024 Eduardo Cabrejas. Todos los derechos reservados.</p>
+        </footer>
+        
+
+    </main>
+
+    <style>
+        body {
+            background-image: url("/assets/img/neom-water.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <script src="scripts/models.js"></script>
+    <script src="/scripts/index.js"></script>
+
+</body>
+
+</html>

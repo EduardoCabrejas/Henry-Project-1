@@ -1,1 +1,3 @@
 # Henry-Project-1
+
+Este es el Proyecto Integrador 1 trabajado durante la estancia de estudio en Henry. En específico, trataba sobre diseñar una "página de presentación", en la cual presentar mi perfil brevemente, los diferentes lenguajes o programas que conozco y he aprendido a utilizar, y finalmente una función para que quien desee visitar el proyecto pueda agregar contenido a la página. Como tal, de mi parte he elegido que pueda agregar una actividad que le agrade.
